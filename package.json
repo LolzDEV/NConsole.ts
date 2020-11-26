@@ -1,6 +1,6 @@
 {
   "name": "@lolzdev/nconsole",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NConsole porting to TypeScript",
   "author": "LolzDEV",
   "license": "GPL-3.0",
@@ -10,12 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/LolzDEV/NConsole.ts.git"
   },
-  "keywords": ["TypeScript", "Console", "Commands"],
+  "keywords": [
+    "TypeScript",
+    "Console",
+    "Commands"
+  ],
   "scripts": {
-    "build" : "tsc",
-    "prepare" : "npm run build"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
