@@ -1,20 +1,26 @@
 {
-  "name": "nconsole",
-  "version": "1.0.0",
+  "name": "@lolzdev/nconsole",
+  "version": "1.0.1",
   "description": "NConsole porting to TypeScript",
-  "main": "./lib/readline-sync.js",
   "author": "LolzDEV",
   "license": "GPL-3.0",
+  "main": "./lib/nconsole.js",
+  "types": "./lib/nconsole.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LolzDEV/NConsole.ts.git"
+  },
+  "keywords": ["TypeScript", "Console", "Commands"],
   "scripts": {
     "build" : "tsc",
-    "prepare" : "npm run build",
+    "prepare" : "npm run build"
   },
   "files": ["lib/**/*"],
   "dependencies": {
-    "readline-sync": "^1.4.10",
-    "typescript": "^4.1.2"
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
+    "typescript": "^4.1.2",
     "@types/node": "^14.14.10"
   }
 }
